@@ -6,7 +6,7 @@ cache: pip
 env:
   - SKLEARN=0.20.x
   - SKLEARN=0.23.x
-
+print("Hello World)
 install:
 - pip install -e .
 script:
